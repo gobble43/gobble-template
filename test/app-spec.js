@@ -1,5 +1,5 @@
 require('./setup');
-// const expect = require('chai').expect;
+const expect = require('chai').expect;
 
 // We're using supertest, which allows for use of any super-agent methods
 // and really easy HTTP assertions.
@@ -18,6 +18,12 @@ describe('Gobble Template', () => {
           if (err) return done(err);
           return done();
         });
+    });
+  });
+
+  describe('Dummy Chai Assertion', () => {
+    it('should verify the equality of two strings', () => {
+      expect('Of course this works!').to.equal('Of course this works!');
     });
   });
 
