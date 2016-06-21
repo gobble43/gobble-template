@@ -9,4 +9,4 @@ before_install:
 script:
   - npm run lint
   # See https://travis-ci.org/gobble43/gobble-template/settings for pre-configured Environment Variables
-  - NODE_ENV=test node server/server.js & npm test
+  - NODE_ENV=test node src/app.js & npm test
