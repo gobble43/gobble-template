@@ -52,4 +52,4 @@ gobble-template
   - Development Team Members: [Leo Adelstein](https://github.com/leoadelstein), [Jinsoo Cha](https://github.com/jinsoocha), [Will Tang](https://github.com/willwtang/shortly-deploy), [Jack Zhang](https://github.com/jackrzhang)
 
 ## Contributing
-See [CONTRIBUTING.md](https://github.com/gobble43/docs/blob/master/STYLE-GUIDE.md) for contribution guidelines.
+See [STYLE-GUIDE.md](https://github.com/gobble43/docs/blob/master/STYLE-GUIDE.md) and [CONTRIBUTING.md](https://github.com/gobble43/docs/blob/master/CONTRIBUTING.md) for contribution guidelines.
