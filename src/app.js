@@ -11,8 +11,11 @@ if (process.env.NODE_ENV === 'development') {
 const express = require('express');
 const app = express();
 
+const morgan = require('morgan');
+app.use(morgan('dev'));
+
 app.get('/', (req, res) => {
-  res.status(200).send('Hello, World!');
+  res.status(200).json({ message: 'Hello, World!' });
 });
 
 app.listen(process.env.PORT, () => {
