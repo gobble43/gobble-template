@@ -3,7 +3,11 @@
 [![Stories in Ready](https://badge.waffle.io/gobble43/gobble-template.svg?label=ready&title=Ready)](http://waffle.io/gobble43/gobble-template)
 
 # gobble-template
-> Boilerplate reference for Gobble microservices.
+> Boilerplate reference for Gobble microservices. Includes:
+ - Mocha + Chai + SuperTest setup
+ - Travis CI setup
+ - ESLint (Airbnb ES6) Setup
+ - Git Workflow Demo w/ Pull Request
 
 ## Table of Contents
 1. [Getting started](#getting-started)
