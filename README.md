@@ -1,3 +1,5 @@
+[![Stories in Ready](https://badge.waffle.io/gobble43/gobble-template.svg?label=ready&title=Ready)](http://waffle.io/gobble43/gobble-template)
+
 # gobble-template
 > Boilerplate reference for Gobble microservices.
 
